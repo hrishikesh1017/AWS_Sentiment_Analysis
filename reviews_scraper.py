@@ -27,7 +27,7 @@ headers = {
 }
 
 # URL of The amazon Review page
-reviews_url = 'https://www.amazon.in/Dennis-Lingo-Solid-Casual-C301_Dustypink_M_Dustypink_M/product-reviews/B07HK7B2PQ/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews'
+reviews_url = 'https://www.amazon.in/InstaCuppa-Kettle-Adjustable-Temperature-Settings/product-reviews/B0C26NH1C7/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews'
 
 # Define Page No
 len_page = 4
