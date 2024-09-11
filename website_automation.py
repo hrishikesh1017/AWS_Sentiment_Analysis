@@ -12,7 +12,7 @@ time.sleep(1)
 
 # Locate the email/phone number input field and input a dummy value
 login = web.find_element(By.XPATH, "/html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[1]/form/div/div/div/div[1]/input[1]")
-login.send_keys("silentswordfish2004@gmail.com")
+login.send_keys("Your Mobile Number")
 
 # Locate the submit button and click it
 submit_button = web.find_element(By.XPATH, "/html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[1]/form/div/div/div/div[2]/span/span/input")
@@ -23,7 +23,7 @@ time.sleep(2)
 
 # Locate the password input field and input a password
 pass_key = web.find_element(By.XPATH, "/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div[2]/div/form/div/div[1]/input")
-pass_key.send_keys("pass")
+pass_key.send_keys("Your Password")
 
 # Locate the submit button for the password and click it
 pass_submit = web.find_element(By.XPATH, "/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div[2]/div/form/div/div[2]/span/span/input")
@@ -32,11 +32,11 @@ pass_submit.click()
 # Wait for the page to load completely after submitting the password
 time.sleep(3)
 
-# Take a screenshot and save it to the current directory with a file name
-web.save_screenshot('amazon_login_screenshot.png')
+searchBox = web.find_element(By.ID, "twotabsearchtextbox")
+searchBox.send_keys("macbook pro")
 
-# Alternatively, provide a full path where the screenshot will be saved
-# web.save_screenshot('/path/to/your/folder/amazon_login_screenshot.png')
+time.sleep(1)
 
-# Close the browser
-web.quit()
+Find = web.find_element(By.XPATH, "/html/body/div[1]/header/div/div[1]/div[2]/div/form/div[3]/div/span/input")
+Find.click()
+time.sleep(1)

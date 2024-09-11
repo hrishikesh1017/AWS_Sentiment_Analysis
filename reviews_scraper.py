@@ -27,7 +27,7 @@ headers = {
 }
 
 # URL of The amazon Review page
-reviews_url = 'https://www.amazon.in/InstaCuppa-Kettle-Adjustable-Temperature-Settings/product-reviews/B0C26NH1C7/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews'
+reviews_url = 'https://www.amazon.in/TCL-inches-Google-55P71B-Pro/dp/B0CZ6JLH88/ref=sr_1_1_sspa?crid=PBIL2YQCOZ9V&dib=eyJ2IjoiMSJ9.fsPyz6mlKE6yFSqc_YplQlCr0jZgAjSDTTCdbEUh-6Wz1fTaPaM0Qj8iCEMef-dTrQiZshw47bb6MNZGiwpkNh1gNpXP5yeIFvZStBnFnFKwbD7eL4WpnDEukucgNXUm3dBJNOnMml9D_uOvV6XIycLP7YbM_D0bsoA5GO-5tiuByl19HTdFB6K9UjcCOK0FzTICAHoALcWSXk1IeJ7Qwgm4q9cyEySoOZkoIWGKyuc.z-fXE1hegCWju8zUVaAamesMAwBmlBN9v_qv_CN77f4&dib_tag=se&keywords=samsung+tv&qid=1726048385&sprefix=%2Caps%2C1915&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1'
 
 # Define Page No
 len_page = 4
